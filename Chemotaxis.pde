@@ -13,7 +13,7 @@ void setup() {
 }
 
 void draw() {
-  background(235);
+  background(173,216,230);
   image(penguin, mouseX, mouseY, 50, 50); // Display the penguin on the cursor
 
   for (int i = 0; i < seals.length; i++) {
